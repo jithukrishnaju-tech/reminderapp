@@ -1,3 +1,43 @@
+.todobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todostyles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: #e7e6e6;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.divBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+.btnSyl {
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #61dafb;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.resultSection {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 40px;
+  gap: 10px;
+}
 .App {
   text-align: center;
 }
